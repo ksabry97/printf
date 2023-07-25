@@ -1,5 +1,5 @@
 .\" Manpage for _printf.
-.TH _printf 3 "30 July 2019" "1.0" "Program Manual for _printf"
+.TH _printf 3 "25 July 2023" "1.0" "Program Manual for _printf"
 .SH NAME
  _printf - formatted output conversion and print data.
 .SH SYNOPSIS
@@ -103,7 +103,7 @@ The character \fI%\fR is followed by zero the following flags:
 .SH EXAMPLE
 .R To print the the string \fBHello Holberton!\fR and its length in decimal.
 
-#include ''holberton.h''
+#include ''main.h''
 
 int main(void)
 
@@ -123,4 +123,4 @@ int main(void)
 .SH SEE ALSO
 .R printf(3)
 .SH AUTHORS
-Written by \fBDiego López\fR and \fBLuis Chaparro\fR.
+Written by \khaled sabry and \omar sabry
